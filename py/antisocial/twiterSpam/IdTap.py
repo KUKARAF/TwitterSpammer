@@ -22,8 +22,8 @@ def login_twitter(username, password,driver):
 if __name__ == "__main__":
     #username = input("user name : ")
     #password = getpass("password  : ")
-    username = "rafal.kuka94@gmail.com"
-    password = "79194211"
+    username = ""
+    password = ""
     login_twitter(username, password, driver )
 
     driver.get('https://twitter.com/8btbrs/followers')
